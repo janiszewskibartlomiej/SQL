@@ -1,0 +1,5 @@
+SELECT CustomerID, SUM(Freight) AS £¹cznie
+	FROM Orders
+	WHERE Freight > 10			-- ODRZUCAMY PRZED GRUPOWANIEM
+	GROUP BY CustomerID, Freight
+	HAVING  Freight > 100		-- ODRZUCAMY PO GRUPOWANIU

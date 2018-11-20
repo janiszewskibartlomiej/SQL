@@ -1,0 +1,3 @@
+SELECT TOP 10  * 
+	FROM Orders
+	ORDER BY Freight DESC
