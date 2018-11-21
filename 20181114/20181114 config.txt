@@ -1,7 +1,0 @@
-serwer	mssql01.dcsweb.pl,51433
-bazy:
-	1449_nw		- dane przyk³adowe / tylko odczyt
-	1449_isa	- pusta /odczyt zapis
-
-u: 	1449_kurs
-p:	123abcZ!!
