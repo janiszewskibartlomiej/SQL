@@ -1,0 +1,3 @@
+SELECT TOP 10 PERCENT * 
+	FROM Orders
+	ORDER BY Freight DESC
