@@ -1,0 +1,6 @@
+SELECT * FROM CUSTOMERS
+	WHERE Region IS NULL
+
+UPDATE Customers
+	SET Region = '' -- PUSTY CI¥G ZNAKÓW
+WHERE        (Region IS NULL)

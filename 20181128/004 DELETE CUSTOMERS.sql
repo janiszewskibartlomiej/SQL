@@ -1,0 +1,17 @@
+SELECT * FROM Customers
+	WHERE CustomerID = 'BOLID'
+-- KASOWANIE KLIENTA 3
+DELETE FROM Customers
+	WHERE CustomerID = 'BOLID'
+
+SELECT * FROM Orders
+	WHERE CustomerID = 'BOLID'
+-- KASOWANIE ZAMÓWIEÑ KLIENTA 2
+DELETE FROM Orders 
+	WHERE CustomerID = 'BOLID'
+
+SELECT * FROM [Order Details]
+	WHERE OrderID IN(SELECT OrderID FROM Orders WHERE CustomerID = 'BOLID')
+-- KASOWANIE SZCZEGÓ£ÓW ZAMÓWIENIA 3
+DELETE FROM [Order Details]
+		WHERE OrderID IN(SELECT OrderID FROM Orders WHERE CustomerID = 'BOLID')
