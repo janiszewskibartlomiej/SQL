@@ -1,0 +1,6 @@
+CREATE VIEW CustomersNW
+AS
+SELECT *
+  FROM [MSSQL01.DCSWEB.PL,51433].[1449_nw].[dbo].[Customers]
+
+

@@ -1,0 +1,8 @@
+oprogramowanie zalecane
+SQL Server Management Studio 2017 lub nowsze
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+
+oprogramowanie Windows/Mac/Linux
+SQL Operations Studio
+https://github.com/Microsoft/sqlopsstudio
+

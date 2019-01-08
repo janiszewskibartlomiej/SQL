@@ -1,0 +1,16 @@
+-- strony korzystaj¹ce z baz MySQL
+temisto.pl/wp/
+temisto.pl/sklep/
+--panel bazy danych
+	http://46.4.119.232/phpmyadmin/
+	http://46.4.119.232/chive
+Baza:	siplus_northwind	- nortwind mysql
+	siplus_pr2		- presta mysql
+	siplus_wp1		- wordpress mysql
+Host:	localhost
+Login:	siplus_kurs
+Has³o:	123abcZ!!!
+
+oprogramowanie pomocnicze
+MySQL Workbench >= 8.0.13
+MySQL Connector ODBC >= 8.0.13

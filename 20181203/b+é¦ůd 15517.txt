@@ -1,0 +1,6 @@
+-- przejêcie bazy z nowym w³aœcicielem
+GO
+
+EXEC sp_changedbowner 'sa' 
+
+GO

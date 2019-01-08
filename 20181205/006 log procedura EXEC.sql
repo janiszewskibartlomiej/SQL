@@ -1,0 +1,1 @@
+EXEC LogDodaj 3, 'test 3', 'nasze uwagi'

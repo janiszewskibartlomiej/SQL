@@ -1,0 +1,2 @@
+-- wykaz osób z numerami kart kredytowych Adventure Works
+-- imiê nazwisko / nr karty / email / has³o

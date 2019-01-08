@@ -1,0 +1,9 @@
+EXEC master.dbo.sp_addlinkedserver @server = N'MY_MYSQL', 
+	@srvproduct=N'', 
+	@provider=N'MSDASQL', 
+	@datasrc=N'MY_MYSQL'
+EXEC master.dbo.sp_addlinkedsrvlogin @rmtsrvname=N'MY_MYSQL',
+	@useself=N'False',
+	@locallogin=NULL,
+	@rmtuser=N'siplus_kurs',
+	@rmtpassword='123abcZ!!!'
