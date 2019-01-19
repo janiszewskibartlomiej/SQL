@@ -1,0 +1,23 @@
+CREATE PROCEDURE TransakcjaY
+AS
+BEGIN TRANSACTION
+	INSERT INTO Customers	
+		(CustomerID, CompanyName, ContactName)
+		VALUES
+		('ZBCVT'   , 'Firma X'  , 'Pan Y')
+		IF @@ERROR <> 0
+		BEGIN
+			ROLLBACK TRANSACTION
+			RETURN 10
+		END
+	UPDATE Customers
+		SET City = 'Berlin'
+		WHERE CustomerID = 'ZBCVT'
+		IF @@ERROR <> 0
+		BEGIN
+			ROLLBACK TRANSACTION
+			RETURN 11
+		END
+COMMIT TRANSACTION
+
+-- DELETE FROM Customers WHERE CustomerID = 'ZBCVT'
